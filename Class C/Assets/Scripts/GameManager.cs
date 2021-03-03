@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public int totalPoint;
     public int stagePoint;
     public int stageIndex;
-    public int lifeNumber;
+    public static int lifeNumber;
     // public int health;
 
     public PlayerMove player;
@@ -28,6 +28,10 @@ public class GameManager : MonoBehaviour
     public GameObject UIRestartBtn;
     public Text UILife;
 
+    public void Awake()
+    {
+        UILife.text = lifeNumber.ToString();
+    }
 
     private void Update()
     {
@@ -37,16 +41,17 @@ public class GameManager : MonoBehaviour
     public void NextStage()
     {
         // Change Stage
-        if(stageIndex < Stages.Length -1)
+        if (stageIndex < Stages.Length - 1)
         {
             Stages[stageIndex].SetActive(false);
             stageIndex++;
             Stages[stageIndex].SetActive(true);
             PlayerReposition();
 
-            UIStage.text = "STAGE " + (stageIndex+1);
+            UIStage.text = "STAGE " + (stageIndex + 1);
         }
-        else{ // Game Claer
+        else
+        { // Game Claer
             // Player Control Lock
             Time.timeScale = 0;
             // Restart Button UI
@@ -54,7 +59,7 @@ public class GameManager : MonoBehaviour
             btnText.text = "Clear!";
             UIRestartBtn.SetActive(true);
         }
-        
+
         // Calculate Point
         totalPoint += stagePoint;
         stagePoint = 0;
@@ -68,16 +73,16 @@ public class GameManager : MonoBehaviour
         //UIRestartBtn.SetActive(true);
 
         // Result UI
-        Debug.Log("Die");
+        //Debug.Log("Die");
         // Player Reposition
         Invoke("PlayerReposition", 0.5f);
         // LifeNumber up
         lifeNumber++;
         UILife.text = lifeNumber.ToString();
         // Restart Stage
-        Stages[stageIndex].SetActive(true);
+        //Stages[stageIndex].SetActive(true);
         //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
-        //SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
 
     }
     /*
@@ -119,8 +124,8 @@ public class GameManager : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
-        { 
-             PlayerReposition();
+        {
+            PlayerReposition();
             // LifeNumber up
             LifeNumberUp();
         }

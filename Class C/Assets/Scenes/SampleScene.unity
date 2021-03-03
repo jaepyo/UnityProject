@@ -1936,7 +1936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -242.99994, y: 112.72001}
+  m_AnchoredPosition: {x: -267, y: 127}
   m_SizeDelta: {x: 143.0187, y: 39.143753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &282643639
@@ -5970,7 +5970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: 110}
+  m_AnchoredPosition: {x: -152, y: 126.51}
   m_SizeDelta: {x: 110.69684, y: 44.575554}
   m_Pivot: {x: 0.49999982, y: 0.5000002}
 --- !u!1 &746609481
@@ -13507,13 +13507,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1623860067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468e945bd7a54b1448c448649aee1505, type: 3}
+  m_Script: {fileID: 11500000, guid: 01537989c31ec2e4d888be9f66f8e925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   totalPoint: 0
   stagePoint: 0
   stageIndex: 0
-  lifeNumber: 0
   player: {fileID: 1612635526}
   Stages:
   - {fileID: 702646636}
