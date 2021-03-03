@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: bf5ffe5def1327f4c86761566cef1437
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1710196991291963937
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_0
+  - first:
+      213: 8208443935691550797
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_1
+  - first:
+      213: -5898797581122784812
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_2
+  - first:
+      213: 7505749102129537514
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_3
+  - first:
+      213: 5322625829331510573
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_4
+  - first:
+      213: -3480748769877260162
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_5
+  - first:
+      213: 3762714661588182454
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_6
+  - first:
+      213: -1500126035606862959
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_7
+  - first:
+      213: 7690108665869316304
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_8
+  - first:
+      213: 528891360059575031
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_9
+  - first:
+      213: 8749325514197449781
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_10
+  - first:
+      213: 1789294105413579516
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_11
+  - first:
+      213: 6215053287676589271
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_12
+  - first:
+      213: 4080713907609927781
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_13
+  - first:
+      213: 2863046588771844664
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_14
+  - first:
+      213: 4892285117520138434
+    second: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+      Overlay_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5c91eb5e82448e0800000000000000
+      internalID: -1710196991291963937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40ba91f4404ae170800000000000000
+      internalID: 8208443935691550797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d13e376ad2432ea0800000000000000
+      internalID: -5898797581122784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae163ad8a07c92860800000000000000
+      internalID: 7505749102129537514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25af95cdf3cdd940800000000000000
+      internalID: 5322625829331510573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7886138f65e1bfc0800000000000000
+      internalID: -3480748769877260162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b52e1b8c09d73430800000000000000
+      internalID: 3762714661588182454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1938651915b7e2be0800000000000000
+      internalID: -1500126035606862959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d03b417611c8ba60800000000000000
+      internalID: 7690108665869316304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_9
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7facf19c3eff65700800000000000000
+      internalID: 528891360059575031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c30020339db6970800000000000000
+      internalID: 8749325514197449781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf270ef3289d4d810800000000000000
+      internalID: 1789294105413579516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_12
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d43610590e404650800000000000000
+      internalID: 6215053287676589271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560061dadab91a830800000000000000
+      internalID: 4080713907609927781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_14
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c32314b59bb720800000000000000
+      internalID: 2863046588771844664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario World - Cookie Mountain Sub Area - Scrolling Water
+        Overlay_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 7
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0d7b9d463e4e340800000000000000
+      internalID: 4892285117520138434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

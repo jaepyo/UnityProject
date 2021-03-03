@@ -1,0 +1,2096 @@
+fileFormatVersion: 2
+guid: 06f7f1b4fbfe72e4996cf3fde1a71cce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5464108409831527325
+    second: PC Computer - MapleStory - Black Wyvern_0
+  - first:
+      213: 4156916630879497701
+    second: PC Computer - MapleStory - Black Wyvern_1
+  - first:
+      213: -8571741976326678558
+    second: PC Computer - MapleStory - Black Wyvern_2
+  - first:
+      213: 3876554528883378742
+    second: PC Computer - MapleStory - Black Wyvern_3
+  - first:
+      213: -6067798458159347019
+    second: PC Computer - MapleStory - Black Wyvern_4
+  - first:
+      213: -6422045815868582294
+    second: PC Computer - MapleStory - Black Wyvern_5
+  - first:
+      213: 6246950256914544726
+    second: PC Computer - MapleStory - Black Wyvern_6
+  - first:
+      213: 7684849756046422778
+    second: PC Computer - MapleStory - Black Wyvern_7
+  - first:
+      213: -7003527119010557309
+    second: PC Computer - MapleStory - Black Wyvern_8
+  - first:
+      213: -5110468739601554567
+    second: PC Computer - MapleStory - Black Wyvern_9
+  - first:
+      213: -1862731395388013071
+    second: PC Computer - MapleStory - Black Wyvern_10
+  - first:
+      213: -4863081717647140161
+    second: PC Computer - MapleStory - Black Wyvern_11
+  - first:
+      213: 4480683102243079838
+    second: PC Computer - MapleStory - Black Wyvern_12
+  - first:
+      213: 7436928972098924393
+    second: PC Computer - MapleStory - Black Wyvern_13
+  - first:
+      213: -1171304595353379384
+    second: PC Computer - MapleStory - Black Wyvern_14
+  - first:
+      213: 2496083667094226908
+    second: PC Computer - MapleStory - Black Wyvern_15
+  - first:
+      213: -4712820999242894258
+    second: PC Computer - MapleStory - Black Wyvern_16
+  - first:
+      213: -3593195414097864878
+    second: PC Computer - MapleStory - Black Wyvern_17
+  - first:
+      213: 6342445294106271911
+    second: PC Computer - MapleStory - Black Wyvern_18
+  - first:
+      213: 6704317174522415250
+    second: PC Computer - MapleStory - Black Wyvern_19
+  - first:
+      213: 8591867107507291167
+    second: PC Computer - MapleStory - Black Wyvern_20
+  - first:
+      213: -6101994519859456885
+    second: PC Computer - MapleStory - Black Wyvern_21
+  - first:
+      213: -6141296502811787563
+    second: PC Computer - MapleStory - Black Wyvern_22
+  - first:
+      213: -2519186895195197619
+    second: PC Computer - MapleStory - Black Wyvern_23
+  - first:
+      213: -8711929680918956638
+    second: PC Computer - MapleStory - Black Wyvern_24
+  - first:
+      213: -3175656551628933334
+    second: PC Computer - MapleStory - Black Wyvern_25
+  - first:
+      213: -7347888006385339030
+    second: PC Computer - MapleStory - Black Wyvern_26
+  - first:
+      213: 9212662178622332759
+    second: PC Computer - MapleStory - Black Wyvern_27
+  - first:
+      213: 5570070142468089081
+    second: PC Computer - MapleStory - Black Wyvern_28
+  - first:
+      213: -9161519194771829172
+    second: PC Computer - MapleStory - Black Wyvern_29
+  - first:
+      213: -6538079696790447772
+    second: PC Computer - MapleStory - Black Wyvern_30
+  - first:
+      213: -6846417760479203689
+    second: PC Computer - MapleStory - Black Wyvern_31
+  - first:
+      213: -436121268507257895
+    second: PC Computer - MapleStory - Black Wyvern_32
+  - first:
+      213: 3243670946853925918
+    second: PC Computer - MapleStory - Black Wyvern_33
+  - first:
+      213: 1974794709430906874
+    second: PC Computer - MapleStory - Black Wyvern_34
+  - first:
+      213: 5546989179141171265
+    second: PC Computer - MapleStory - Black Wyvern_35
+  - first:
+      213: 7790094239880221258
+    second: PC Computer - MapleStory - Black Wyvern_36
+  - first:
+      213: 192384067624251599
+    second: PC Computer - MapleStory - Black Wyvern_37
+  - first:
+      213: -8287583693653869775
+    second: PC Computer - MapleStory - Black Wyvern_38
+  - first:
+      213: -3123448390616406048
+    second: PC Computer - MapleStory - Black Wyvern_39
+  - first:
+      213: 1148670233579453464
+    second: PC Computer - MapleStory - Black Wyvern_40
+  - first:
+      213: 580537117769585981
+    second: PC Computer - MapleStory - Black Wyvern_41
+  - first:
+      213: -463577148227745395
+    second: PC Computer - MapleStory - Black Wyvern_42
+  - first:
+      213: -4007258300059740351
+    second: PC Computer - MapleStory - Black Wyvern_43
+  - first:
+      213: -4100146259383654469
+    second: PC Computer - MapleStory - Black Wyvern_44
+  - first:
+      213: -5407226806160910301
+    second: PC Computer - MapleStory - Black Wyvern_45
+  - first:
+      213: -5226511818647297413
+    second: PC Computer - MapleStory - Black Wyvern_46
+  - first:
+      213: -5619021843333486273
+    second: PC Computer - MapleStory - Black Wyvern_47
+  - first:
+      213: 1702609095490937323
+    second: PC Computer - MapleStory - Black Wyvern_48
+  - first:
+      213: 6289594400397098974
+    second: PC Computer - MapleStory - Black Wyvern_49
+  - first:
+      213: 1294725510321406560
+    second: PC Computer - MapleStory - Black Wyvern_50
+  - first:
+      213: -1746539217420357402
+    second: PC Computer - MapleStory - Black Wyvern_51
+  - first:
+      213: 4647156412611016927
+    second: PC Computer - MapleStory - Black Wyvern_52
+  - first:
+      213: -3111329632695001721
+    second: PC Computer - MapleStory - Black Wyvern_53
+  - first:
+      213: -8873536473936540507
+    second: PC Computer - MapleStory - Black Wyvern_54
+  - first:
+      213: 5211775119156695543
+    second: PC Computer - MapleStory - Black Wyvern_55
+  - first:
+      213: -2932202783188422951
+    second: PC Computer - MapleStory - Black Wyvern_56
+  - first:
+      213: 1495322611326695944
+    second: PC Computer - MapleStory - Black Wyvern_57
+  - first:
+      213: -9065890756154648924
+    second: PC Computer - MapleStory - Black Wyvern_58
+  - first:
+      213: -4432535493107163584
+    second: PC Computer - MapleStory - Black Wyvern_59
+  - first:
+      213: -5202363917839808670
+    second: PC Computer - MapleStory - Black Wyvern_60
+  - first:
+      213: 2526925893519429051
+    second: PC Computer - MapleStory - Black Wyvern_61
+  - first:
+      213: -1372483365572376581
+    second: PC Computer - MapleStory - Black Wyvern_62
+  - first:
+      213: -443658773140351406
+    second: PC Computer - MapleStory - Black Wyvern_63
+  - first:
+      213: 2503955464926036958
+    second: PC Computer - MapleStory - Black Wyvern_64
+  - first:
+      213: -7184928592698321689
+    second: PC Computer - MapleStory - Black Wyvern_65
+  - first:
+      213: 7745002486595998215
+    second: PC Computer - MapleStory - Black Wyvern_66
+  - first:
+      213: -6865718417201892646
+    second: PC Computer - MapleStory - Black Wyvern_67
+  - first:
+      213: -5441363480342021551
+    second: PC Computer - MapleStory - Black Wyvern_68
+  - first:
+      213: -6067552729739798167
+    second: PC Computer - MapleStory - Black Wyvern_69
+  - first:
+      213: 1628686692939921076
+    second: PC Computer - MapleStory - Black Wyvern_70
+  - first:
+      213: -2002535289481299613
+    second: PC Computer - MapleStory - Black Wyvern_71
+  - first:
+      213: -577126397427922793
+    second: PC Computer - MapleStory - Black Wyvern_72
+  - first:
+      213: -8747256254882332028
+    second: PC Computer - MapleStory - Black Wyvern_73
+  - first:
+      213: 5595261281963696310
+    second: PC Computer - MapleStory - Black Wyvern_74
+  - first:
+      213: 8807760707736718789
+    second: PC Computer - MapleStory - Black Wyvern_75
+  - first:
+      213: -2796970087813860363
+    second: PC Computer - MapleStory - Black Wyvern_76
+  - first:
+      213: -8320331093196762268
+    second: PC Computer - MapleStory - Black Wyvern_77
+  - first:
+      213: 2640300769451382476
+    second: PC Computer - MapleStory - Black Wyvern_78
+  - first:
+      213: 4201880494984669178
+    second: PC Computer - MapleStory - Black Wyvern_79
+  - first:
+      213: 7032982042642359675
+    second: PC Computer - MapleStory - Black Wyvern_80
+  - first:
+      213: 8702083136036306666
+    second: PC Computer - MapleStory - Black Wyvern_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1628
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c64c1f9569b24b0800000000000000
+      internalID: -5464108409831527325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1628
+        width: 173
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed6c78c6a550b930800000000000000
+      internalID: 4156916630879497701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1628
+        width: 142
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e75eba661e0b0980800000000000000
+      internalID: -8571741976326678558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1628
+        width: 152
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a868e1ec94cc530800000000000000
+      internalID: 3876554528883378742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1628
+        width: 167
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bacfbc6379dacba0800000000000000
+      internalID: -6067798458159347019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1628
+        width: 169
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a669edd1b5f40e6a0800000000000000
+      internalID: -6422045815868582294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1448
+        width: 162
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6583de03920a1b650800000000000000
+      internalID: 6246950256914544726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1448
+        width: 174
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f465132216aa60800000000000000
+      internalID: 7684849756046422778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1448
+        width: 143
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3829f8801397ece90800000000000000
+      internalID: -7003527119010557309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1448
+        width: 144
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973af4cf1c7f319b0800000000000000
+      internalID: -5110468739601554567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_10
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1448
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f50ee14aaf3626e0800000000000000
+      internalID: -1862731395388013071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_11
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1448
+        width: 170
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba12f981fcd28cb0800000000000000
+      internalID: -4863081717647140161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1261
+        width: 176
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e964b44ba859e2e30800000000000000
+      internalID: 4480683102243079838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1327
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f64c16f77453760800000000000000
+      internalID: 7436928972098924393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1327
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cddd262da0bebfe0800000000000000
+      internalID: -1171304595353379384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1330
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74ec2deded3a220800000000000000
+      internalID: 2496083667094226908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1317
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4430225542b89eb0800000000000000
+      internalID: -4712820999242894258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1310
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575226fec7622ec0800000000000000
+      internalID: -3593195414097864878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1310
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a06d8a2464e40850800000000000000
+      internalID: 6342445294106271911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1310
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29885f003f48a0d50800000000000000
+      internalID: 6704317174522415250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1310
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14c554dc917c3770800000000000000
+      internalID: 8591867107507291167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_21
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1289
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84956e505c515ba0800000000000000
+      internalID: -6101994519859456885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1086
+        width: 162
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5defd816e5bb5caa0800000000000000
+      internalID: -6141296502811787563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1086
+        width: 202
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f2215bddc0a0dd0800000000000000
+      internalID: -2519186895195197619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_24
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1086
+        width: 215
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b4acec12091780800000000000000
+      internalID: -8711929680918956638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_25
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1086
+        width: 225
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f38f013dcde3d0800000000000000
+      internalID: -3175656551628933334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_26
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1086
+        width: 251
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657c0af9ce070a90800000000000000
+      internalID: -7347888006385339030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_27
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1086
+        width: 246
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fd570d073f9df70800000000000000
+      internalID: 9212662178622332759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_28
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1086
+        width: 257
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4e1d7784ddc4d40800000000000000
+      internalID: 5570070142468089081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_29
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1086
+        width: 234
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec3b805debbd080800000000000000
+      internalID: -9161519194771829172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_30
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1086
+        width: 213
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4699c9fe7231445a0800000000000000
+      internalID: -6538079696790447772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_31
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1211
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e26ba1253acf0a0800000000000000
+      internalID: -6846417760479203689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_32
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1086
+        width: 237
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3d1a7540692f9f0800000000000000
+      internalID: -436121268507257895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1086
+        width: 203
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14bb7b5a85d30d20800000000000000
+      internalID: 3243670946853925918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_34
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1162
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff23f74351e76b10800000000000000
+      internalID: 1974794709430906874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_35
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1086
+        width: 218
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14825abe44ddafc40800000000000000
+      internalID: 5546989179141171265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_36
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1052
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4290eeff69fb1c60800000000000000
+      internalID: 7790094239880221258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_37
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1043
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0303b4a4c7ba200800000000000000
+      internalID: 192384067624251599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_38
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1040
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf0754a869cfc80800000000000000
+      internalID: -8287583693653869775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_39
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1029
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e72b0bcc3847a4d0800000000000000
+      internalID: -3123448390616406048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 753
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c7194dd75e0ff00800000000000000
+      internalID: 1148670233579453464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 750
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d59bce6b7e0800800000000000000
+      internalID: 580537117769585981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 751
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8985e13a0b0199f0800000000000000
+      internalID: -463577148227745395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_43
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 750
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14714b5becb5368c0800000000000000
+      internalID: -4007258300059740351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_44
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 750
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb76a4a53ba5917c0800000000000000
+      internalID: -4100146259383654469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_45
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 751
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3281fc65edba5f4b0800000000000000
+      internalID: -5407226806160910301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_46
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 751
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a5233133b777b0800000000000000
+      internalID: -5226511818647297413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 753
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3962f287693502b0800000000000000
+      internalID: -5619021843333486273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_48
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 751
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1261893f1e0a710800000000000000
+      internalID: 1702609095490937323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_49
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 753
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf74f098c0294750800000000000000
+      internalID: 6289594400397098974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_50
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 755
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062085cedf9c7f110800000000000000
+      internalID: 1294725510321406560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_51
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 755
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0fe57d5db03c7e0800000000000000
+      internalID: -1746539217420357402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_52
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 754
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8bb55b2240e7040800000000000000
+      internalID: 4647156412611016927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_53
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 757
+        width: 73
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d51100f2652d4d0800000000000000
+      internalID: -3111329632695001721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_54
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 757
+        width: 77
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac4a89479ddad480800000000000000
+      internalID: -8873536473936540507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_55
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 755
+        width: 164
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1dd829bd1f35840800000000000000
+      internalID: 5211775119156695543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_56
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 755
+        width: 173
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de64aaaa19be47d0800000000000000
+      internalID: -2932202783188422951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_57
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 755
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80abcb01ef370c410800000000000000
+      internalID: 1495322611326695944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_58
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 755
+        width: 217
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a697e2f36c7f2280800000000000000
+      internalID: -9065890756154648924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_59
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 755
+        width: 206
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e590f14787c72c0800000000000000
+      internalID: -4432535493107163584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_60
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 757
+        width: 72
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26749dc749d7dc7b0800000000000000
+      internalID: -5202363917839808670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_61
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 757
+        width: 66
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd46f046b1711320800000000000000
+      internalID: 2526925893519429051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_62
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 565
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf70de696a5f3fce0800000000000000
+      internalID: -1372483365572376581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_63
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 565
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256db7942bec7d9f0800000000000000
+      internalID: -443658773140351406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 371
+        width: 164
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed380549a36dfb220800000000000000
+      internalID: 2503955464926036958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_65
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 371
+        width: 209
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e45ba723810a4c90800000000000000
+      internalID: -7184928592698321689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_66
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 371
+        width: 209
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702521e0ab6cb7b60800000000000000
+      internalID: 7745002486595998215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_67
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 371
+        width: 207
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f2d6c97118b0a0800000000000000
+      internalID: -6865718417201892646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_68
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 371
+        width: 204
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a3e648eb46c74b0800000000000000
+      internalID: -5441363480342021551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_69
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 471
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96958e780f8bbcba0800000000000000
+      internalID: -6067552729739798167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_70
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 371
+        width: 217
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6f6170be14a9610800000000000000
+      internalID: 1628686692939921076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_71
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 411
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369784c93c09534e0800000000000000
+      internalID: -2002535289481299613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_72
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 411
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798ceca6992adf7f0800000000000000
+      internalID: -577126397427922793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_73
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 238
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482cc68f7c08b9680800000000000000
+      internalID: -8747256254882332028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 238
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b061f0bd7c56ad40800000000000000
+      internalID: 5595261281963696310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_75
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 238
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd4a4bb2b37b3a70800000000000000
+      internalID: 8807760707736718789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_76
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 238
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3367c268a2f29d0800000000000000
+      internalID: -2796970087813860363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 21
+        width: 164
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4639e5824fe388c80800000000000000
+      internalID: -8320331093196762268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 21
+        width: 173
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc617579f8b34a420800000000000000
+      internalID: 2640300769451382476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_79
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 21
+        width: 143
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af724343c04105a30800000000000000
+      internalID: 4201880494984669178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_80
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 21
+        width: 151
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75266bc7eb2a9160800000000000000
+      internalID: 7032982042642359675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Black Wyvern_81
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 21
+        width: 151
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7c51b18204c870800000000000000
+      internalID: 8702083136036306666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
