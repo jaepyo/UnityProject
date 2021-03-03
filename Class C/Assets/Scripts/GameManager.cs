@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public int stagePoint;
     public int stageIndex;
     public static int lifeNumber;
+    public static int stageNum;
     // public int health;
 
     public PlayerMove player;
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     // public Image[] UIhealth;
     public Text UIPoint;
-    public Text UIStage;
+    //public Text UIStage;
     public GameObject UIRestartBtn;
     public Text UILife;
 
@@ -43,12 +44,18 @@ public class GameManager : MonoBehaviour
         // Change Stage
         if (stageIndex < Stages.Length - 1)
         {
+            /*
             Stages[stageIndex].SetActive(false);
             stageIndex++;
             Stages[stageIndex].SetActive(true);
             PlayerReposition();
 
             UIStage.text = "STAGE " + (stageIndex + 1);
+            */
+            stageNum++;
+            //UIStage.text = "STAGE " + (stageNum + 1);
+            SceneManager.LoadScene(stageNum);
+            lifeNumber = 0;
         }
         else
         { // Game Claer
@@ -82,7 +89,7 @@ public class GameManager : MonoBehaviour
         // Restart Stage
         //Stages[stageIndex].SetActive(true);
         //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(stageNum);
 
     }
     /*

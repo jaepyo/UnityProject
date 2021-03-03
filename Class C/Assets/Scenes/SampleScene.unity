@@ -6621,7 +6621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &785589587
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13520,7 +13520,6 @@ MonoBehaviour:
   - {fileID: 879797720}
   - {fileID: 1877739466}
   UIPoint: {fileID: 785589588}
-  UIStage: {fileID: 549472068}
   UIRestartBtn: {fileID: 1326199500}
   UILife: {fileID: 744395717}
 --- !u!4 &1623860069
