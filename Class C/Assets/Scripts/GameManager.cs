@@ -90,7 +90,6 @@ public class GameManager : MonoBehaviour
         //Stages[stageIndex].SetActive(true);
         //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
         SceneManager.LoadScene(stageNum);
-
     }
     /*
     public void HealthDown()

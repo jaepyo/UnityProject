@@ -8,6 +8,8 @@ TagManager:
   - Platform
   - Item
   - Pop
+  - Disappear
+  - SuperEnemy
   layers:
   - Default
   - TransparentFX

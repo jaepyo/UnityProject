@@ -100,6 +100,10 @@ public class PlayerMove : MonoBehaviour
             else  // Damaged
                 OnDamaged(collision.transform.position);
         }
+        if (collision.gameObject.tag == "SuperEnemy")
+        {
+            OnDamaged(collision.transform.position);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -133,7 +137,11 @@ public class PlayerMove : MonoBehaviour
             // Sound
             PlaySound("FINISH");
             audioSource.Play();
-        } 
+        }
+        else if(collision.gameObject.tag == "Disappear")
+        {
+            collision.gameObject.SetActive(false);
+        }
     }
    
     void OnAttack(Transform enemy)
