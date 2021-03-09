@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
     public static int stageNum;
     // public int health;
 
+    public static bool checkPoint = false;
+    public CheckPoint checkPointBody;
+
     public PlayerMove player;
     public GameObject[] Stages;
 
@@ -32,6 +35,16 @@ public class GameManager : MonoBehaviour
     public void Awake()
     {
         UILife.text = lifeNumber.ToString();
+        if (checkPoint)
+        {
+            player.transform.position = checkPointBody.transform.position;
+            player.VelocityZero();
+        }
+        else
+        {
+            player.transform.position = new Vector3(0, 0, -1);
+            //player.VelocityZero();
+        }
     }
 
     private void Update()
@@ -139,8 +152,8 @@ public class GameManager : MonoBehaviour
 
     void PlayerReposition()
     {
-        player.transform.position = new Vector3(0, 0, -1);
-        player.VelocityZero();
+            player.transform.position = new Vector3(0, 0, -1);
+            player.VelocityZero();
     }
 
     public void Restart()

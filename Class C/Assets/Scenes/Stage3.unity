@@ -1280,6 +1280,7 @@ MonoBehaviour:
   totalPoint: 0
   stagePoint: 0
   stageIndex: 0
+  checkPointBody: {fileID: 0}
   player: {fileID: 437245301}
   Stages:
   - {fileID: 0}

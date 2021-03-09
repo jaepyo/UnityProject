@@ -142,6 +142,11 @@ public class PlayerMove : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
         }
+        else if (collision.gameObject.tag == "CheckPoint")
+        {
+            collision.gameObject.SetActive(false);
+            GameManager.checkPoint = true;
+        }
     }
    
     void OnAttack(Transform enemy)

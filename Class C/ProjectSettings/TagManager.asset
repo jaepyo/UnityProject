@@ -10,6 +10,7 @@ TagManager:
   - Pop
   - Disappear
   - SuperEnemy
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
