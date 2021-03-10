@@ -11,6 +11,10 @@ TagManager:
   - Disappear
   - SuperEnemy
   - CheckPoint
+  - FlyEnemy
+  - Spike
+  - Appear
+  - dis
   layers:
   - Default
   - TransparentFX

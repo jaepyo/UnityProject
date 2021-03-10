@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         if (checkPoint)
         {
             player.transform.position = checkPointBody.transform.position;
-            player.VelocityZero();
+            //player.VelocityZero();
         }
         else
         {
@@ -55,7 +55,8 @@ public class GameManager : MonoBehaviour
     public void NextStage()
     {
         // Change Stage
-        if (stageIndex < Stages.Length - 1)
+        stageNum++;
+        if (stageNum < stageIndex)
         {
             /*
             Stages[stageIndex].SetActive(false);
@@ -65,10 +66,10 @@ public class GameManager : MonoBehaviour
 
             UIStage.text = "STAGE " + (stageIndex + 1);
             */
-            stageNum++;
             //UIStage.text = "STAGE " + (stageNum + 1);
             SceneManager.LoadScene(stageNum);
             lifeNumber = 0;
+            checkPoint = false;
         }
         else
         { // Game Claer

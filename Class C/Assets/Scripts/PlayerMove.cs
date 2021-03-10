@@ -11,6 +11,9 @@ public class PlayerMove : MonoBehaviour
     public AudioClip audioItem;
     public AudioClip audioDie;
     public AudioClip audioFinish;
+    public GameObject finish;
+    public GameObject dis;
+
 
     public float maxSpeed;
     public float jumpPower;
@@ -110,17 +113,15 @@ public class PlayerMove : MonoBehaviour
     {
         if(collision.gameObject.tag == "Item")
         {
-            // Point
             bool isBronze = collision.gameObject.name.Contains("Bronze");
             bool isSilver = collision.gameObject.name.Contains("Silver");
-            bool isGold = collision.gameObject.name.Contains("Gold");
+            if (isBronze)
+            {
+                gameManager.LifeNumberUp();
+            }
+            else if (isSilver)
+            {finish.SetActive(true); }
 
-            if(isBronze)
-                gameManager.stagePoint += 50;
-            else if(isSilver)
-                gameManager.stagePoint += 100;
-            else if(isGold)
-                gameManager.stagePoint += 300;
 
             // Deactive Item
             collision.gameObject.SetActive(false);
@@ -141,12 +142,19 @@ public class PlayerMove : MonoBehaviour
         else if(collision.gameObject.tag == "Disappear")
         {
             collision.gameObject.SetActive(false);
+            //disappear.SetActive(false);
         }
+        else if (collision.gameObject.tag == "dis")
+        {
+            dis.SetActive(false);
+        }
+
         else if (collision.gameObject.tag == "CheckPoint")
         {
             collision.gameObject.SetActive(false);
             GameManager.checkPoint = true;
         }
+        
     }
    
     void OnAttack(Transform enemy)
