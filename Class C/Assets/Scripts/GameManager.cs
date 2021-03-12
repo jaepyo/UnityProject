@@ -160,6 +160,6 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(stageNum);
     }
 }
