@@ -37,6 +37,23 @@ public class PlayerMove : MonoBehaviour
 
     void Update()  // 1초에 60번 단발적인 키입력해는 update에 다가
     {
+        // Jump
+        // anim.getbool ~~ 2단점프 방지, 점프하고 있을때는 X
+        if (Input.GetButtonDown("Jump"))
+        {
+            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            PlaySound("JUMP");
+            audioSource.Play();
+        }
+
+        // Stop Speed
+        if (Input.GetButtonUp("Horizontal"))
+        {
+            // 가다가 키 땠을 때 속도 멈추기
+            // normalized ; 벡터크기를 1로 만든 상태 (단위벡터), 단위구할 때 사용, 방향구할 때
+            rigid.velocity = new Vector2(rigid.velocity.normalized.x * 0.5f, rigid.velocity.y);
+        }
+
         // Mobile
 
         if (inputLeft)
@@ -103,6 +120,9 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate() // 보통 1초에 50회 돈다. 1초동안 꾹 누르면 힘을 1초에 50번 주는 거
     {
+        // Move Speed  Move By Key Control,
+        float h = Input.GetAxisRaw("Horizontal");
+        rigid.AddForce(Vector2.right * h * 3, ForceMode2D.Impulse);
 
         // Max Speed
         if (rigid.velocity.x > maxSpeed) // Right Max Speed
