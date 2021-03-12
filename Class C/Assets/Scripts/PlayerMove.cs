@@ -14,12 +14,15 @@ public class PlayerMove : MonoBehaviour
     public GameObject finish;
     public GameObject dis;
 
+    // 버튼 입력받는 변수들
+    public bool inputLeft = false;
+    public bool inputRight = false;
+    public bool inputJump = false;
 
     public float maxSpeed;
     public float jumpPower;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
-    Animator anim;
     CapsuleCollider2D capsuleCollider;
     AudioSource audioSource;
 
@@ -28,68 +31,79 @@ public class PlayerMove : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         audioSource = GetComponent<AudioSource>();
     }
 
     void Update()  // 1초에 60번 단발적인 키입력해는 update에 다가
     {
+        // Mobile
+
+        if (inputLeft)
+        {
+            transform.position += Vector3.left * maxSpeed * Time.deltaTime;
+        }
+        if (inputRight)
+        {
+            transform.position += Vector3.right * maxSpeed * Time.deltaTime;
+        }
         // Jump
-        // anim.getbool ~~ 2단점프 방지, 점프하고 있을때는 X
-        if (Input.GetButtonDown("Jump") && !anim.GetBool("isJumping")) {
+        if (inputJump)
+        {
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-            anim.SetBool("isJumping", true);
+            /*
+            if (rigid.velocity.y < 0)
+            {
+                Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
+
+                RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
+                if (rayHit.collider != null)
+                {
+                    if (rayHit.distance < 0.5f)
+                        inputJump = false;
+                }
+            }
+            */
+            inputJump = false;
             PlaySound("JUMP");
             audioSource.Play();
         }
-            
+
         
-        // Stop Speed
-        if (Input.GetButtonUp("Horizontal"))
-        {
-            // 가다가 키 땠을 때 속도 멈추기
-            // normalized ; 벡터크기를 1로 만든 상태 (단위벡터), 단위구할 때 사용, 방향구할 때
-            rigid.velocity = new Vector2(rigid.velocity.normalized.x * 0.5f, rigid.velocity.y);
-        }
 
-        // Direction Sprite
-        if(Input.GetButton("Horizontal"))
-            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
 
-        // Animation
-        if (Mathf.Abs(rigid.velocity.x) < 0.3)
-            anim.SetBool("isWalking", false);
-        else
-            anim.SetBool("isWalking", true);
-
+    }
+    public void LeftDown()
+    {
+        inputLeft = true;
+    }
+    public void LeftUp()
+    {
+        inputLeft = false;
+    }
+    public void RightDown()
+    {
+        inputRight = true;
+    }
+    public void RightUp()
+    {
+        inputRight = false;
+    }
+    public void JumpClick()
+    {
+        inputJump = true;
     }
 
     // Update is called once per frame
     void FixedUpdate() // 보통 1초에 50회 돈다. 1초동안 꾹 누르면 힘을 1초에 50번 주는 거
     {
-        // Move Speed  Move By Key Control,
-        float h = Input.GetAxisRaw("Horizontal");
-        rigid.AddForce(Vector2.right * h*3, ForceMode2D.Impulse);
-        
+
         // Max Speed
         if (rigid.velocity.x > maxSpeed) // Right Max Speed
             rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);  // 여기서  y축 0으로 하면 공중에서 멈춤
         else if (rigid.velocity.x < maxSpeed*(-1)) // Left Max Speed
             rigid.velocity = new Vector2(maxSpeed*(-1), rigid.velocity.y);
 
-        // Landing Platform
-        if (rigid.velocity.y < 0)
-        {
-            // 이 밑에껀 눈에 보이게 하기위한 도구, 안쓰면 안보임 
-            Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
-
-            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
-            if (rayHit.collider != null){
-                if (rayHit.distance < 0.5f)
-                    anim.SetBool("isJumping", false);
-            }
-        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -200,9 +214,6 @@ public class PlayerMove : MonoBehaviour
         int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
         rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
 
-        // Animation
-        anim.SetTrigger("doDamaged");
-
         Invoke("OffDamaged", 1);
 
         // Sound
@@ -215,22 +226,6 @@ public class PlayerMove : MonoBehaviour
         gameObject.layer = 10;
         spriteRenderer.color = new Color(1, 1, 1, 1);
     }
-    /*
-    public void OnDie()
-    {
-        // Sprite Alpha
-        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
-        // Sprite Flip Y
-        spriteRenderer.flipY = true;
-        // Collider Disable
-        capsuleCollider.enabled = false;
-        // Die Effect Jump
-        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
-        // Sound
-        PlaySound("DIE");
-        audioSource.Play();
-    }
-    */
 
     public void VelocityZero()
     {
@@ -261,4 +256,5 @@ public class PlayerMove : MonoBehaviour
                 break;
         }
     }
+
 }
