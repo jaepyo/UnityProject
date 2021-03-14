@@ -1360,7 +1360,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202935757}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 126.79, y: -6.79, z: 15.29641}
+  m_LocalPosition: {x: 126.79, y: -7.06, z: 15.29641}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1583761890}
@@ -6573,6 +6573,9 @@ MonoBehaviour:
   audioFinish: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
   finish: {fileID: 0}
   dis: {fileID: 0}
+  inputLeft: 0
+  inputRight: 0
+  inputJump: 0
   maxSpeed: 4.5
   jumpPower: 20
 --- !u!82 &1471941530
@@ -6919,7 +6922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523767402}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: 84.93, y: -5.44, z: 15.29641}
+  m_LocalPosition: {x: 84.93, y: -7.06, z: 15.29641}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1583761890}

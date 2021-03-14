@@ -19,9 +19,6 @@ public class PlayerMove : MonoBehaviour
     public bool inputRight = false;
     public bool inputJump = false;
 
-    public Number1 num1;
-
-
     public float maxSpeed;
     public float jumpPower;
     Rigidbody2D rigid;
@@ -231,27 +228,19 @@ public class PlayerMove : MonoBehaviour
         // Health Down
         //gameManager.HealthDown();
         // LifeNumber UP
-        //gameManager.LifeNumberUp();
-        num1.Up1();
-        gameManager.Restart();
+        gameManager.LifeNumberUp();
+        
         // Chage Layer (immortal Active)
-       // gameObject.layer = 11;
+        gameObject.layer = 11;
 
         // View Alpha
-        //spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
         // Reaction Force
-      //  int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
-      //  rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
+        int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+        rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
 
-<<<<<<< Updated upstream
         Invoke("OffDamaged", 1);
-=======
-        // Animation
-     //   anim.SetTrigger("doDamaged");
-
-      //  Invoke("OffDamaged", 1);
->>>>>>> Stashed changes
 
         // Sound
         PlaySound("DAMAGED");

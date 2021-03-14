@@ -4,18 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 public class GameManager : MonoBehaviour
 {
-   
+    /*
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+    */
+
     public int totalPoint;
     public int stagePoint;
     public int stageIndex;
-<<<<<<< Updated upstream
     public static int lifeNumber;
     public static int stageNum;
-=======
->>>>>>> Stashed changes
     // public int health;
 
     public static bool checkPoint = false;
@@ -23,14 +25,13 @@ public class GameManager : MonoBehaviour
 
     public PlayerMove player;
     public GameObject[] Stages;
-    public Number1 num1;
 
     // public Image[] UIhealth;
     public Text UIPoint;
     //public Text UIStage;
     public GameObject UIRestartBtn;
+    public Text UILife;
 
-<<<<<<< Updated upstream
     public void Awake()
     {
         UILife.text = lifeNumber.ToString();
@@ -45,9 +46,6 @@ public class GameManager : MonoBehaviour
             //player.VelocityZero();
         }
     }
-=======
-    
->>>>>>> Stashed changes
 
     private void Update()
     {
@@ -88,8 +86,8 @@ public class GameManager : MonoBehaviour
         stagePoint = 0;
     }
 
-   // public void LifeNumberUp()
-   // {
+    public void LifeNumberUp()
+    {
         // Player Die Effect
         //player.OnDie();
         // Retry Button UI
@@ -98,23 +96,15 @@ public class GameManager : MonoBehaviour
         // Result UI
         //Debug.Log("Die");
         // Player Reposition
-       // Invoke("PlayerReposition", 0.1f);
+        Invoke("PlayerReposition", 0.5f);
         // LifeNumber up
-      //  lifeNumber++;
-       // UILife.text = lifeNumber.ToString();
+        lifeNumber++;
+        UILife.text = lifeNumber.ToString();
         // Restart Stage
-<<<<<<< Updated upstream
         //Stages[stageIndex].SetActive(true);
         //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
         SceneManager.LoadScene(stageNum);
     }
-=======
-       // Stages[stageIndex].SetActive(true);
-        //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
-        //SceneManager.LoadScene(0);
-
-  //  }
->>>>>>> Stashed changes
     /*
     public void HealthDown()
     {
@@ -154,22 +144,10 @@ public class GameManager : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
-<<<<<<< Updated upstream
         {
             PlayerReposition();
-=======
-        { 
-           // LifeNumberUp();
-          
-            PlayerReposition();
-            num1.Up1();
-            Restart();
-            
-            
-            
->>>>>>> Stashed changes
             // LifeNumber up
-            
+            LifeNumberUp();
         }
     }
 
