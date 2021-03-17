@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public int stageIndex;
     public static int lifeNumber;
     public static int stageNum;
+    
     // public int health;
 
     public static bool checkPoint = false;
@@ -96,15 +97,26 @@ public class GameManager : MonoBehaviour
         // Result UI
         //Debug.Log("Die");
         // Player Reposition
-        Invoke("PlayerReposition", 0.5f);
+        //Invoke("PlayerReposition", 1.5f);
         // LifeNumber up
         lifeNumber++;
         UILife.text = lifeNumber.ToString();
         // Restart Stage
         //Stages[stageIndex].SetActive(true);
         //PlayerPrefs.SetInt("lifeNumber", lifeNumber);
-        SceneManager.LoadScene(stageNum);
+        
+      
+        
+        Invoke("Reposition",0.5f);
+        
+
     }
+    
+
+    void Reposition() {
+       
+        SceneManager.LoadScene(stageNum);
+        }
     /*
     public void HealthDown()
     {
@@ -162,4 +174,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(stageNum);
     }
+
+    
 }

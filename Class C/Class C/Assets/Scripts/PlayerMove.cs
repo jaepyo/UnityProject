@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PlayerMove : MonoBehaviour
     public AudioClip audioFinish;
     public GameObject finish;
     public GameObject dis;
+    public GameObject button;
+    public GameObject ClearBnt;
 
     // 버튼 입력받는 변수들
     public bool inputLeft = false;
@@ -33,6 +36,7 @@ public class PlayerMove : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         audioSource = GetComponent<AudioSource>();
+        
     }
 
     void Update()  // 1초에 60번 단발적인 키입력해는 update에 다가
@@ -93,14 +97,18 @@ public class PlayerMove : MonoBehaviour
     public void LeftDown()
     {
         inputLeft = true;
+        spriteRenderer.flipX = false;
+
     }
     public void LeftUp()
     {
         inputLeft = false;
+        
     }
     public void RightDown()
     {
         inputRight = true;
+        spriteRenderer.flipX = true;
     }
     public void RightUp()
     {
@@ -173,7 +181,13 @@ public class PlayerMove : MonoBehaviour
         else if(collision.gameObject.tag == "Finish")
         {
             // Next Stage
-            gameManager.NextStage();
+            ClearBnt.SetActive(true);
+            button.SetActive(false);
+            inputLeft = false;
+            inputRight = false;
+            inputJump = false;
+            Time.timeScale = 0;
+            
 
             // Sound
             PlaySound("FINISH");
@@ -223,6 +237,9 @@ public class PlayerMove : MonoBehaviour
         audioSource.Play() ;
     }
 
+    
+
+
     void OnDamaged(Vector2 targetPos)
     {
         // Health Down
@@ -237,10 +254,17 @@ public class PlayerMove : MonoBehaviour
         spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
         // Reaction Force
-        int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
-        rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
+        // int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+        // rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
+
+        
 
         Invoke("OffDamaged", 1);
+        button.SetActive(false);
+        inputLeft = false;
+        inputRight = false;
+        inputJump = false;
+        
 
         // Sound
         PlaySound("DAMAGED");
@@ -252,6 +276,8 @@ public class PlayerMove : MonoBehaviour
         gameObject.layer = 10;
         spriteRenderer.color = new Color(1, 1, 1, 1);
     }
+
+
 
     public void VelocityZero()
     {

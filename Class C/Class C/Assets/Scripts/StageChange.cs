@@ -8,6 +8,7 @@ public class StageChange : MonoBehaviour
     public GameObject Stage1;
     public GameObject Stage2;
     public GameObject Stage3;
+    
 
     public void ChageStage1()
     {
@@ -26,4 +27,5 @@ public class StageChange : MonoBehaviour
         SceneManager.LoadScene(3);
         GameManager.stageNum = 3;
     }
+
 }
