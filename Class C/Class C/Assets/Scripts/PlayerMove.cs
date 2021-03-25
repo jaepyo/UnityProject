@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviour
     public GameObject dis;
     public GameObject button;
     public GameObject ClearBnt;
+    Animator anim;
 
     // 버튼 입력받는 변수들
     public bool inputLeft = false;
@@ -36,7 +37,7 @@ public class PlayerMove : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
         audioSource = GetComponent<AudioSource>();
-        
+        anim = GetComponent<Animator>();
     }
 
     void Update()  // 1초에 60번 단발적인 키입력해는 update에 다가
@@ -89,10 +90,6 @@ public class PlayerMove : MonoBehaviour
             PlaySound("JUMP");
             audioSource.Play();
         }
-
-        
-
-
     }
     public void LeftDown()
     {
@@ -238,8 +235,6 @@ public class PlayerMove : MonoBehaviour
     }
 
     
-
-
     void OnDamaged(Vector2 targetPos)
     {
         // Health Down
@@ -251,24 +246,24 @@ public class PlayerMove : MonoBehaviour
         gameObject.layer = 11;
 
         // View Alpha
-        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+        //spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
-        // Reaction Force
-        // int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
-        // rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
+        //Reaction Force
+        int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+        rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
 
-        
+        anim.SetBool("Die",true);
 
         Invoke("OffDamaged", 1);
         button.SetActive(false);
         inputLeft = false;
         inputRight = false;
         inputJump = false;
-        
 
         // Sound
         PlaySound("DAMAGED");
         audioSource.Play();
+
     }
 
     void OffDamaged()
