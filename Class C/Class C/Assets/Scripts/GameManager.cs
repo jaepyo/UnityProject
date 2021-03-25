@@ -68,9 +68,10 @@ public class GameManager : MonoBehaviour
             UIStage.text = "STAGE " + (stageIndex + 1);
             */
             //UIStage.text = "STAGE " + (stageNum + 1);
+            checkPoint = false;
             SceneManager.LoadScene(stageNum);
             lifeNumber = 0;
-            checkPoint = false;
+            
         }
         else
         { // Game Claer
