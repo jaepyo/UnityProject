@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
     void Reposition() {
        
         SceneManager.LoadScene(stageNum);
-        }
+    }
     /*
     public void HealthDown()
     {
@@ -158,7 +158,7 @@ public class GameManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerReposition();
+            //PlayerReposition();
             // LifeNumber up
             LifeNumberUp();
         }
