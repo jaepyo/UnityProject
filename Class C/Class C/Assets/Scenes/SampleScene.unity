@@ -3733,7 +3733,7 @@ MonoBehaviour:
   audioItem: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
   audioDie: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
   audioFinish: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
-  finish: {fileID: 0}
+  finish: {fileID: 905106561}
   dis: {fileID: 0}
   button: {fileID: 671579778}
   ClearBnt: {fileID: 1147709395}

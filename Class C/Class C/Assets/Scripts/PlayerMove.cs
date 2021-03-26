@@ -240,6 +240,8 @@ public class PlayerMove : MonoBehaviour
         // Health Down
         //gameManager.HealthDown();
         // LifeNumber UP
+        maxSpeed =0;
+        jumpPower=0;
         gameManager.LifeNumberUp();
         
         // Chage Layer (immortal Active)
@@ -260,6 +262,8 @@ public class PlayerMove : MonoBehaviour
         inputRight = false;
         inputJump = false;
 
+
+
         // Sound
         PlaySound("DAMAGED");
         audioSource.Play();
@@ -271,6 +275,8 @@ public class PlayerMove : MonoBehaviour
         gameObject.layer = 10;
         spriteRenderer.color = new Color(1, 1, 1, 1);
     }
+
+
 
 
 
