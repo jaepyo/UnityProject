@@ -1314,7 +1314,7 @@ MonoBehaviour:
   stagePoint: 0
   stageIndex: 4
   checkPointBody: {fileID: 1806108364}
-  player: {fileID: 0}
+  player: {fileID: 1754154379}
   Stages:
   - {fileID: 0}
   - {fileID: 0}
@@ -6962,7 +6962,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 2012444373}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
